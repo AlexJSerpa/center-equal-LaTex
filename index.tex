@@ -1,0 +1,32 @@
+
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath}
+\usepackage{qcircuit}
+
+\title{}
+\author{ }
+\date{}
+\begin{document}
+
+\begin{equation*}
+        \begin{aligned}
+            \Qcircuit @C=1em @R=1em {
+            & \ctrl{1} & \qw \\
+            & \gate{Z} & \qw \\
+            }
+        \end{aligned}
+    =
+        \begin{aligned}
+            \Qcircuit @C=1em @R=1.4em {
+            & \ctrl{1} & \qw \\
+            & \ctrl{-1} & \qw \\
+            }
+        \end{aligned}
+\end{equation*}
+
+\maketitle
+
+\section{Introduction}
+
+\end{document}
